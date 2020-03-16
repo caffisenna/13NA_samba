@@ -41,7 +41,7 @@ echo '-----------------------------'
 # smb.confをインポート
 cd /etc/samba
 mv smb.conf smb.conf.bak
-wget https://www.dropbox.com/s/emskzpkxxmx8fwn/smb.conf?dl=0 -O smb.conf
+wget https://raw.githubusercontent.com/caffisenna/13NA_samba/master/smb.conf -O smb.conf
 
 # smb.confのテスト
 testparm -s
